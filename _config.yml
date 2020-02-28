@@ -1,27 +1,27 @@
 # Site settings
-title: Website Title
-description: Website short description
+title: Grey's Blog
+description: 你获得的不会超过你的认知
 baseurl: "" 
 #change the baseurl to "" if you are using it as your user GitHub Pages
 url: "https://Hummmm.github.io"  
 
 
 # GitHub User settings
-username: Username
-github_username: github_username
-user_description: user_description
-user_title: user_title
-email: 
+#username: jiali.wong@outlook.com
+#github_username: jiali.wong@outlook.com
+#user_description: user_description
+#user_title: user_title
+#email: 
 
 # Blog Author settings
 author:
-  name:            
+  name:Grey           
   picture:        
-  email:           
+  email:jiali.wong@outlook.com         
   description:     
   twitter:
   facebook:
-  github:          
+  github:https://github.com/Hummmm        
   linkedin:
   clustrmap:      
 
