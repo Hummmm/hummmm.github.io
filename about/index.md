@@ -11,7 +11,7 @@ mathjax: true
 # Me
 My name is Jiali Wang. I am currently both an engineer and a team leader focusing on AR industry. I graduated from Hongkong University, majoring in Computer Science and Mathematics.
 
-As for my current interest, I also accepted a PHD offer from Imperial College London. The project is about visual surgeon, developing novel tools using Augmented Reality (AR) and Virual Reality (VR) technologies, exploring the optimal use within improvement of surgical care. However, I have defered the offer next year.
+As for my current interest, I have accepted a PHD offer from Imperial College London. The project is about visual surgeon, developing novel tools using Augmented Reality (AR) and Virual Reality (VR) technologies, exploring the optimal use within improvement of surgical care. However, I have defered the offer next year.
 
 # Posts
 
