@@ -1,5 +1,5 @@
 对比读取字典时间，可以看到加载时间是明显降低的
-![caption](https://raw.githubusercontent.com/Hummmm/Hummmm.github.io/master/_posts/2017-02-11-bow2/assets/result.png)
+![caption](https://github.com/Hummmm/Hummmm.github.io/blob/master/_posts/2017-02-11-Bow/assets/result.png?raw=true)
 
 1.BoW2项目中在TemplatedVocabulary.h文件中添加两个函数后重新编译BoW2，更新lib文件：
 ```
