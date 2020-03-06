@@ -1,5 +1,15 @@
-目标检测分类
-目标检测目前有 one-stage 和 two-stage 两种，two-stage 指的是检测算法需要分两步完成，首先需要获取候选区域，然后进行分类，比如R-CNN系列；与之相对的是 one-stage 检测，可以理解为一步到位，不需要单独寻找候选区域，典型的有SSD/YOLO
+---
+title: 目标检测
+tags: deep learning
+edit: 2019-06-02
+categories: 技术类
+status: Paused
+mathjax: true
+highlight: true
+mermaid: true
+description: 目标检测目前有 one-stage 和 two-stage 两种，two-stage 指的是检测算法需要分两步完成，首先需要获取候选区域，然后进行分类，比如R-CNN系列；与之相对的是 one-stage 检测，可以理解为一步到位，不需要单独寻找候选区域，典型的有SSD/YOLO
+
+---
 
 
 滑动窗口检测器
