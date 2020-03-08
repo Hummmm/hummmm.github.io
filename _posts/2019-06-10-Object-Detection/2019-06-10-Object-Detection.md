@@ -1,7 +1,3 @@
- [![](https://www.mdeditor.com/images/logos/markdown.png)](https://www.mdeditor.com/images/logos/markdown.png "markdown")
-
-> Follow your heart.
- 
 ---
 title: 目标检测
 tags: DeepLearning
@@ -13,6 +9,9 @@ highlight: true
 mermaid: true
 description: 目标检测目前有 one-stage 和 two-stage 两种，two-stage 指的是检测算法需要分两步完成，首先需要获取候选区域，然后进行分类，比如R-CNN系列；与之相对的是 one-stage 检测，可以理解为一步到位，不需要单独寻找候选区域，典型的有SSD/YOLO。
 ---
+![caption](https://github.com/Hummmm/Hummmm.github.io/blob/master/_posts/2019-06-10-Object-Detection/YOLOv1-01.png?raw=true)
+> 各网络结构图
+ 
 我们根据时间顺序来讲目标检测的发展过程。
 ##Two stage流程
 物体检测方法首先需要产生大量可能包含待检测物体的先验框, 然后用分类器判断每个先验框对应的边界框里是否包含待检测物体，以及物体所属类别的概率或者置信度，同时需要后处理修正边界框，最后基于一些准则过滤掉置信度不高和重叠度较高的边界框，进而得到检测结果。这种基于先产生候选区再检测的方法虽然有相对较高的检测准确率，但运行速度较慢。
