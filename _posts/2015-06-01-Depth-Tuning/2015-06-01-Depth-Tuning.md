@@ -16,7 +16,7 @@ description: 立体匹配是依赖大量手工调参的过程才可以得到较�
 ![caption](https://github.com/Hummmm/Hummmm.github.io/blob/master/_posts/2015-06-01-Depth-Tuning/depth.png?raw=true)
 > The stereo parameter update in the dynamic scene. From left to right, each column shows the data when the door is closed, partially open, and fully open, respectively. The first row shows the camera observations while the door is in different situations. The second row shows the depth map before the stereo parameter tuning. The third rows shows the depth map after the phase I tuning of our approach. The last row shows the depth map after the phase II tuning of our approach.
 
-# 目标标准
+# 目标
 首先制定一个好的深度匹配图目标
 - 不同深度的物体图像边缘光滑清晰
 - 相同深度色块内没有噪音点，稠密
@@ -36,7 +36,7 @@ description: 立体匹配是依赖大量手工调参的过程才可以得到较�
 # 参数调整
 在所有参数中，景深是最重要的一个参数。当景深范围错误，会有大块图像空或者细节信息丢失。寻找视差偏小和偏大的像素, 根据它们立刻调整景深范围。
 - 如果图像包含地面，物体景深往往是连续的；不然反之。
-- 景深过于极端的零星点基本是噪音
+- 景深过于极端的零星点基本是噪音。
 
 # 目标函数
 - 一个高质量的深度图应当充满对应点
