@@ -10,7 +10,7 @@ mermaid: true
 description: 立体匹配是依赖大量手工调参的过程才可以得到较好的深度图，我们希望可以有一种自动调参算法来代替人工。
 ---
 
-#文章动机
+# 文章动机
 立体匹配是依赖大量手工调参的过程才可以得到较好的深度图，我们希望可以有一种自动调参算法来代替人工。本篇并不打算用公式来阐述原因，更想表达的是为什么这么做立体匹配算法背后的动机。
 
 ![caption](https://github.com/Hummmm/Hummmm.github.io/blob/master/_posts/2015-06-01-Depth-Tuning/depth.png?raw=true)
