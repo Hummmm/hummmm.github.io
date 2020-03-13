@@ -9,8 +9,12 @@ highlight: true
 mermaid: true
 description: 立体匹配是依赖大量手工调参的过程才可以得到较好的深度图，我们希望可以有一种自动调参算法来代替人工。
 ---
+
 #文章动机
 立体匹配是依赖大量手工调参的过程才可以得到较好的深度图，我们希望可以有一种自动调参算法来代替人工。本篇并不打算用公式来阐述原因，更想表达的是为什么这么做立体匹配算法背后的动机。
+
+![caption](https://github.com/Hummmm/Hummmm.github.io/blob/master/_posts/2015-06-01-Depth-Tuning/depth.png?raw=true)
+> The stereo parameter update in the dynamic scene. From left to right, each column shows the data when the door is closed, partially open, and fully open, respectively. The first row shows the camera observations while the door is in different situations. The second row shows the depth map before the stereo parameter tuning. The third rows shows the depth map after the phase I tuning of our approach. The last row shows the depth map after the phase II tuning of our approach.
 
 # 目标标准
 首先制定一个好的深度匹配图目标
