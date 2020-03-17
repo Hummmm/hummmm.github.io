@@ -1,5 +1,5 @@
 ---
-title: 双目自动调参算法，暨DARPA机器人比赛项目
+title: 深度图自动调参算法
 tags: SLAM
 edit: 2015-06-01
 categories: 技术类
@@ -7,7 +7,7 @@ status: Completed
 mathjax: true
 highlight: true
 mermaid: true
-description: 立体匹配是依赖大量手工调参的过程才可以得到较好的深度图，我们希望可以有一种自动调参算法来代替人工。
+description: DARPA机器人比赛项目时候的一部分工作内容：立体匹配是依赖大量手工调参的过程才可以得到较好的深度图，我们希望可以有一种自动调参算法来代替人工。
 ---
 
 # 文章动机
