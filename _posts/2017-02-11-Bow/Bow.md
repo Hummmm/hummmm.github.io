@@ -1,4 +1,3 @@
-
 ---
 title: 二值化BOW词典代码
 tags: slam
