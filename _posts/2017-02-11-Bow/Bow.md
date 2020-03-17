@@ -1,3 +1,16 @@
+
+---
+title: 二值化BOW词典代码
+tags: slam
+edit: 2017-02-11
+categories: 技术类
+status: Completed
+mathjax: true
+highlight: true
+mermaid: true
+description: 相比开源项目非二值化的词典，我们可以看到读取二值化字典时间是明显降低的
+---
+
 对比读取字典时间，可以看到加载时间是明显降低的
 ![caption](https://github.com/Hummmm/Hummmm.github.io/blob/master/_posts/2017-02-11-Bow/assets/result.png?raw=true)
 
