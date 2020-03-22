@@ -1,6 +1,6 @@
 ---
 title: 二值化BOW词典代码
-tags: slam
+tags: SLAM
 edit: 2017-02-11
 categories: 技术类
 status: Completed
