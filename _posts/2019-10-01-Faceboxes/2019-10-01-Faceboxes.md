@@ -15,15 +15,19 @@ description:  当只有CPU可以运行网络的时候怎么办？网络FaceBoxes
 # 结构
 如果拆分FaceBoxes可以看到AlexNet的前期结构。
 
+![caption](https://github.com/Hummmm/Hummmm.github.io/blob/master/_posts/2019-10-01-Faceboxes/faceboxes.png?raw=true)
+
 ## 前部分RDCL
 
-Rapidly Digested Convolutional Layers。
+Rapidly Digested Convolutional Layers
 - 缩小输入的空间大小。卷积层与Pooling层交替，从而每隔一个stage，feature map的分辨率就减半。
 - 当分辨率（HW）减少时，要增加通道数，保证有效特征数量。
 - 选择合适的kernel size，大致层数越深，卷积核尺寸越小。
 - 使用了CRelu来代替AlexNet的Relu，但是本质都大大加快了收敛速度，有效解决了数学上看似完美的非线性激活函数sigmoid和tanh的易饱和的问题。
 
 ## 后部分MSCL
+
+![caption](https://github.com/Hummmm/Hummmm.github.io/blob/master/_posts/2019-10-01-Faceboxes/nin.jpg?raw=true)
 
 Multiple Scale Convolutional Layers是GoogleNet和SSD的结合。但是FC层占据绝对多数的模型参数这个特性使得AlexNet网络过于庞大，现在一般尽量避免全连接层，改用全卷积+GlobalAvgPooling (Network in Network(NIN)最早提出了用Global Average Pooling（GAP）层来代替全连接层的方法)。
 - 低计算量：而GoogleNet的Inception概念里的Bottleneck结构（借鉴NON，即1X1 Conv结构使得计算量变十分之一，同时在相同尺寸的感受野中叠加更多的卷积，能提取到更丰富的特征）解决了FC结构参数过多的问题。
@@ -37,7 +41,7 @@ Multiple Scale Convolutional Layers是GoogleNet和SSD的结合。但是FC层占�
 # 思考
 
 个人觉得分支的结构还是可以保留 ，但是功能已经不是用来承担过拟合的作用，而是更像AlexNet里的[分组卷积](https://zhuanlan.zhihu.com/p/77480151)（group=2），相当于直接把模型等分为两个独立模型，在两个GPU上单独训练不同任务，在第三个卷积层和最后的三个全连接层做特征交流。
-
+![caption](https://github.com/Hummmm/Hummmm.github.io/blob/master/_posts/2019-10-01-Faceboxes/alex.jpg?raw=true)
 <div id="refer-anchor-1"></div>
 - [1] 使用LRN对局部的特征进行归一化，结果作为ReLU激活函数的输入能有效降低错误率
 <div id="refer-anchor-2"></div>
