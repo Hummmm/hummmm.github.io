@@ -10,7 +10,10 @@ mermaid: true
 description:  当只有CPU可以运行网络的时候怎么办？网络FaceBoxes宣传是A CPU Real-time Face Detector with High Accuracy，其实是前期部分借鉴AlexNet后期借鉴GoogleNet和SSD的网络。
 ---
 
-我们可以回头看看几年前的状况，那个时候没有完善的GPU训练框架，但是AlexNet依旧告诉世界，深度学习在图像分类中可行。可是AlexNet的参数实在太多，才会走上使用GPU的道路。但是AlexNet的参数主要集中在后半部分，前部分依旧值得借鉴。如果拆分FaceBoxes可以看到AlexNet的前期结构。
+我们可以回头看看几年前的状况，那个时候没有完善的GPU训练框架，但是AlexNet依旧告诉世界，深度学习在图像分类中可行。可是AlexNet的参数实在太多，才会走上使用GPU的道路。但是AlexNet的参数主要集中在后半部分，前部分依旧值得借鉴。
+
+# 结构
+如果拆分FaceBoxes可以看到AlexNet的前期结构。
 
 ## 前部分RDCL
 
@@ -36,8 +39,8 @@ Multiple Scale Convolutional Layers是GoogleNet和SSD的结合。但是FC层占�
 个人觉得分支的结构还是可以保留 ，但是功能已经不是用来承担过拟合的作用，而是更像AlexNet里的[分组卷积](https://zhuanlan.zhihu.com/p/77480151)（group=2），相当于直接把模型等分为两个独立模型，在两个GPU上单独训练不同任务，在第三个卷积层和最后的三个全连接层做特征交流。
 
 <div id="refer-anchor-1"></div>
-使用LRN对局部的特征进行归一化，结果作为ReLU激活函数的输入能有效降低错误率
+- [1] 使用LRN对局部的特征进行归一化，结果作为ReLU激活函数的输入能有效降低错误率
 <div id="refer-anchor-2"></div>
-重叠最大池化（overlapping max pooling），即池化范围z与步长s存在关系$z>s$（如$S_{max}$中核尺度为$3\times3/2$），避免平均池化（average pooling）的平均效应
+- [2] 重叠最大池化（overlapping max pooling），即池化范围z与步长s存在关系$z>s$（如$S_{max}$中核尺度为$3\times3/2$），避免平均池化（average pooling）的平均效应
 <div id="refer-anchor-3"></div>
-使用随机丢弃技术（dropout）选择性地忽略训练中的单个神经元，避免模型的过拟合
+- [3] 使用随机丢弃技术（dropout）选择性地忽略训练中的单个神经元，避免模型的过拟合
