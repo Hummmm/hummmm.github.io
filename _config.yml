@@ -14,14 +14,14 @@ user_title: user_title
 email: 
 
 # Blog Author settings
-author:
-  name:            
+author: Grey
+  name: Grey          
   picture:        
-  email: jiali.wong@outlook.com      
+  email: "jiali.wong@outlook.com"      
   description:     
   twitter:
   facebook:
-  github:          
+  github: https://github.com/Hummmm         
   linkedin:
   clustrmap:      
 
