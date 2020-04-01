@@ -1,8 +1,9 @@
 # Site settings
 title: Grayscale
-email: your-email@domain.com
-url: https://example.github.io
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+email: jiali.wong@outlook.com
+url: https://Hummmm.github.io
+description: "My name is Jiali Wang. I am currently both an engineer and a team leader focusing on AR industry. I graduated from Hongkong University, majoring in Computer Science and Mathematics. As for my current interest, I have accepted a PHD offer from Imperial College London. The project is about visual surgeon, developing novel tools using Augmented Reality (AR) and Virual Reality (VR) technologies, exploring the optimal use within improvement of surgical care. However, I have defered the offer next year.
+"
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
