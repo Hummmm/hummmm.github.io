@@ -30,10 +30,8 @@ SNS-icon: #['Facebook', 'weibo', 'qq', 'github', 'Dribbble', 'Twitter', 'instagr
   qq: '' # 你的qq二维码存放的地址 or http://wpa.qq.com/msgrd?v=3&uin='你的QQ号'&site=qq&menu=yes
   github: ''
   weibo: ''
-  instagram: ''
   Twitter: ''
   Facebook: ''
-  Google: ''
   zhihu: ''
   Douban: ''
 
