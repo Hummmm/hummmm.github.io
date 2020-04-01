@@ -1,78 +1,30 @@
 # Site settings
-title: Grey Blog
-description: enjoy busyness and adapt to reliance
-baseurl: "" 
-#change the baseurl to "" if you are using it as your user GitHub Pages
-url: "https://Hummmm.github.io"  
+title: Grayscale
+email: your-email@domain.com
+url: https://example.github.io
+description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary-dark: '#000000'
+  links: '#219ab3'
 
-# GitHub User settings
-username: Username
-github_username: Hummmm
-user_description: user_description
-user_title: user_title
-email: 
+# Footer settings
+footer: Your Website
 
-# Blog Author settings
-author: 
-  name:          
-  picture:        
-  email: 
-  description:     
-  twitter:
-  facebook:
-  github:     
-  linkedin:
-  clustrmap:      
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: https://twitter.com/SBootstrap
+  - title: facebook
+    url:
+  - title: stack-overflow
+    url: http://stackoverflow.com/questions/tagged/jekyll
+  - title: bitbucket
+    url: http://bitbucket.org/jekyll
+  - title: github
+    url: https://github.com/IronSummitMedia/startbootstrap
 
-
-# markdown
+# Build settings
 markdown: kramdown
-  
-kramdown:
- footnote_nr: 1
- entity_output: as_char
- # Jekyll 3 and GitHub Pages now only support rouge for syntax highlighting
- syntax_highlighter: rouge
- syntax_highlighter_opts:
-  # Use existing pygments syntax highlighting css
-  css_class: 'highlight'
- span:
-  line_numbers: false
- block:
-  line_numbers: true
-  start_line: 1
- 
-highlighter: rouge
-    
-plugins:
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  
-permalink: none
-
-defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      toc: true
-      mathjax: true
-      mermaid: false
-      highlight: false
-      numbering: true
-      status: Completed
-      protected: false
-      commentable: true
-      rss: true
-      numbering: true
-
-
-exclude:
- - LICENSE.md
- - README.md
- - "*.cdf"
- - "*.nb"
- - "*.bk"
- - "*.draft.md"
+permalink: pretty
