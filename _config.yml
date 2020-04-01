@@ -24,14 +24,14 @@ portraits: '/assets/profile.jpeg' # your portraits image file path
 
 # SNS
 SNS: true
-SNS-icon: #['Mail', 'weibo', 'qq', 'Github', 'CN_bilibili', 'lofter', 'duban']
+SNS-icon: #['Mail', 'weibo', 'qq', 'GitHub', 'CN_bilibili', 'lofter', 'social-douban']
   Mail: 'mailto:abc@gmail.com'
   qq: '' # 你的qq二维码存放的地址 or http://wpa.qq.com/msgrd?v=3&uin='你的QQ号'&site=qq&menu=yes
-  Github: ''
+  GitHub: ''
   CN_bilibili: ''
   lofter: ''
   zhihu: ''
-  douban: ''
+  social-douban: ''
 
 # 分页
 paginate: 2
