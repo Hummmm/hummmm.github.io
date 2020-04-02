@@ -27,11 +27,11 @@ SNS: true
 SNS-icon: #['Mail', 'weibo', 'qq', 'GitHub', 'CN_bilibili', 'lofter', 'social-douban']
   Mail: 'mailto:abc@gmail.com'
   qq: '' # 你的qq二维码存放的地址 or http://wpa.qq.com/msgrd?v=3&uin='你的QQ号'&site=qq&menu=yes
-  GitHub: ''
-  CN_bilibili: ''
+  GitHub: 'https://github.com/Hummmm'
+  CN_bilibili: 'https://space.bilibili.com/276995927/'
   lofter: ''
-  zhihu: ''
-  social-douban: ''
+  zhihu: 'https://www.zhihu.com/people/Hummmm'
+  social-douban: 'https://www.douban.com/people/WillGray/'
 
 # 分页
 paginate: 2
