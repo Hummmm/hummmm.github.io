@@ -17,9 +17,9 @@ author: true
 name: 'Jiali Wang'
 NickName: 'Grey'
 webtitle: 'My Tech Blog'
-bio: '豆瓣主要用来记录一些思考'
+bio: '个人介绍就不该存在，撕下标签才是认识的开始'
 about: true
-aboutyou: '个人介绍就不该存在，撕下标签才是认识的开始'
+aboutyou: '豆瓣主要用来记录一些思考'
 portraits: '/assets/profile.jpeg' # your portraits image file path
 
 # SNS
