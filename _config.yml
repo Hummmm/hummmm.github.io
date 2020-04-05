@@ -2,7 +2,7 @@
 title: 'My Tech Blog'
 description: 'This blog is about some tech of my projects'
 keywords: 'SLAM DeepLearning MR'
-url: 'https://abc.github.io' # your host
+url: ' ' # your host
 
 # nav 中文字符空格：&emsp;
 nav: # 最佳体验 六个标签 且最好每个标签不超过4中文字
@@ -25,13 +25,14 @@ portraits: '/assets/profile.jpeg' # your portraits image file path
 # SNS
 SNS: true
 SNS-icon: #['Mail', 'weibo', 'qq', 'GitHub', 'CN_bilibili', 'lofter', 'social-douban']
-  Mail: 'mailto:abc@gmail.com'
-  qq: '' # 你的qq二维码存放的地址 or http://wpa.qq.com/msgrd?v=3&uin='你的QQ号'&site=qq&menu=yes
-  GitHub: 'https://github.com/Hummmm'
-  CN_bilibili: 'https://space.bilibili.com/276995927/'
-  lofter: ''
-  zhihu: 'https://www.zhihu.com/people/Hummmm'
+  Mail: 'mailto:jiali.wong@outlook.com'
+  zhihu: '' #https://www.zhihu.com/people/Hummmm
   social-douban: 'https://www.douban.com/people/WillGray/'
+ # qq: '' # 你的qq二维码存放的地址 or http://wpa.qq.com/msgrd?v=3&uin='你的QQ号'&site=qq&menu=yes
+ # GitHub: '' #https://github.com/Hummmm
+ # CN_bilibili: 'https://space.bilibili.com/276995927/'
+ # lofter: ''
+
 
 # 分页
 paginate: 2
