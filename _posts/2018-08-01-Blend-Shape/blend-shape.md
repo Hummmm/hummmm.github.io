@@ -1,4 +1,12 @@
-Blend Shape of 3D human body
+---
+layout: post
+title: 'Blend Shape of 3D human body'
+date: 2018-08-01
+author: Jekyll
+color: rgb(255,210,32)
+cover: 'http://on2171g4d.bkt.clouddn.com/jekyll-banner.png'
+tags: Graphics
+---
 
 
 shape是一个广泛的概念，分成 identity-dependent shape 和 pose-dependent shape， 其中用于动作捕捉的skeletal pose 也只是pose中的一种。其中identity-dependent shape由静态参数β决定，而pose-dependent shape由旋转参数 θ和运动序列参数 δ决定。  以上所有参数和body之间的映射关系是：
